@@ -1,0 +1,21 @@
+##### INSERT
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "name": "test B",
+    "title": "test title for B",
+    "status": 2
+}
+
+#### PATCH ITEM
+PATCH http://localhost:3000/api/61028cf526284b274cd4b310
+Content-Type: application/json
+
+{
+    "title": "new title"
+}
+
+
+##### LIST
+GET http://localhost:3000/api
